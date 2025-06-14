@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23978" started-at="2025-06-13T00:52:37 EDT" finished-at="2025-06-13T00:53:01 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23978" started-at="2025-06-13T00:52:37 EDT" finished-at="2025-06-13T00:53:01 EDT">
+      <class name="com.crm.qa.test.RecruitmentPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.test.RecruitmentPageTest@157853da]" name="setUp" is-config="true" duration-ms="5307" started-at="2025-06-13T00:52:37 EDT" finished-at="2025-06-13T00:52:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRecruitmentPageLabel()[pri:1, instance:com.crm.qa.test.RecruitmentPageTest@157853da]" name="verifyRecruitmentPageLabel" duration-ms="264" started-at="2025-06-13T00:52:42 EDT" finished-at="2025-06-13T00:52:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecruitmentPageLabel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.test.RecruitmentPageTest@157853da]" name="tearDown" is-config="true" duration-ms="933" started-at="2025-06-13T00:52:43 EDT" finished-at="2025-06-13T00:52:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.test.RecruitmentPageTest@157853da]" name="setUp" is-config="true" duration-ms="3878" started-at="2025-06-13T00:52:44 EDT" finished-at="2025-06-13T00:52:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchButton(com.crm.qa.util.KeywordData)[pri:2, instance:com.crm.qa.test.RecruitmentPageTest@157853da]" name="verifySearchButton" duration-ms="741" started-at="2025-06-13T00:52:48 EDT" data-provider="getKeywordTestData" finished-at="2025-06-13T00:52:48 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.crm.qa.util.KeywordData@7c847072]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.test.RecruitmentPageTest@157853da]" name="tearDown" is-config="true" duration-ms="922" started-at="2025-06-13T00:52:48 EDT" finished-at="2025-06-13T00:52:49 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.test.RecruitmentPageTest@157853da]" name="setUp" is-config="true" duration-ms="4053" started-at="2025-06-13T00:52:49 EDT" finished-at="2025-06-13T00:52:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchButton(com.crm.qa.util.KeywordData)[pri:2, instance:com.crm.qa.test.RecruitmentPageTest@157853da]" name="verifySearchButton" duration-ms="624" started-at="2025-06-13T00:52:53 EDT" data-provider="getKeywordTestData" finished-at="2025-06-13T00:52:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.crm.qa.util.KeywordData@869d87c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.test.RecruitmentPageTest@157853da]" name="tearDown" is-config="true" duration-ms="1066" started-at="2025-06-13T00:52:54 EDT" finished-at="2025-06-13T00:52:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.test.RecruitmentPageTest@157853da]" name="setUp" is-config="true" duration-ms="4401" started-at="2025-06-13T00:52:55 EDT" finished-at="2025-06-13T00:52:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchButton(com.crm.qa.util.KeywordData)[pri:2, instance:com.crm.qa.test.RecruitmentPageTest@157853da]" name="verifySearchButton" duration-ms="641" started-at="2025-06-13T00:52:59 EDT" data-provider="getKeywordTestData" finished-at="2025-06-13T00:53:00 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.crm.qa.util.KeywordData@1192b58e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.test.RecruitmentPageTest@157853da]" name="tearDown" is-config="true" duration-ms="946" started-at="2025-06-13T00:53:00 EDT" finished-at="2025-06-13T00:53:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.test.RecruitmentPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
