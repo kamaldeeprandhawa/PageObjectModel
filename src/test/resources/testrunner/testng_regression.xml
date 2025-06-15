@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="CRM App Regression Test" verbose="1" parallel="methods"
+	thread-count="3">
+
+	<listeners>
+		<listener class-name="com.qa.listener.ExtentReportNG" />
+		<listener class-name="com.qa.listener.TestAllureReportListener" />
+
+	</listeners>
+
+	<test name="Free CRM App Test Cases">
+		<classes>
+			<class name="com.crm.qa.test.LoginPageTest"></class>
+			<!--<class name="com.crm.qa.test.HomePageTest"></class>
+			<class name="com.crm.qa.test.RecruitmentPageTest"></class>-->
+
+		</classes>
+	</test>
+</suite>

@@ -8,24 +8,85 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">FREE CRM Application Test Automation Test Suite</th></tr>
-<tr><td><a href="#t0">Free CRM App Test Cases</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">39,689</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">61,194</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">FREE CRM Application Test Automation Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Free CRM App Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.crm.qa.test.LoginPageTest</td><td><a href="#m0">crmLogoImageTest</a></td><td rowspan="1">1749876672760</td><td rowspan="1">209</td></tr><tr><th colspan="4">Free CRM App Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.crm.qa.test.HomePageTest</td><td><a href="#m1">clickRecruitmentPageTest</a></td><td rowspan="1">1749876688198</td><td rowspan="1">1282</td></tr><tr class="passedeven"><td><a href="#m2">clickTimePageTest</a></td><td rowspan="1">1749876684310</td><td rowspan="1">1207</td></tr><tr class="passedeven"><td><a href="#m3">homePageTitleTest</a></td><td rowspan="1">1749876678270</td><td rowspan="1">5</td></tr><tr class="passedeven"><td><a href="#m4">validateUsernameTest</a></td><td rowspan="1">1749876680887</td><td rowspan="1">850</td></tr><tr class="passedodd"><td rowspan="2">com.crm.qa.test.LoginPageTest</td><td><a href="#m5">loginPageTitleTest</a></td><td rowspan="1">1749876670449</td><td rowspan="1">8</td></tr><tr class="passedodd"><td><a href="#m6">loginTest</a></td><td rowspan="1">1749876675302</td><td rowspan="1">307</td></tr><tr class="passedeven"><td rowspan="4">com.crm.qa.test.RecruitmentPageTest</td><td><a href="#m7">verifyRecruitmentPageLabel</a></td><td rowspan="1">1749876693385</td><td rowspan="1">174</td></tr><tr class="passedeven"><td><a href="#m8">verifySearchButton</a></td><td rowspan="3">1749876697599</td><td rowspan="3">429</td></tr><tr class="passedeven"><td><a href="#m9">verifySearchButton</a></td></tr><tr class="passedeven"><td><a href="#m10">verifySearchButton</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.crm.qa.test.HomePageTest</td><td><a href="#m0">validateUsernameTest</a></td><td rowspan="1">1749879958314</td><td rowspan="1">20185</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.crm.qa.test.HomePageTest</td><td><a href="#m1">clickRecruitmentPageTest</a></td><td rowspan="1">1749879985079</td><td rowspan="1">1215</td></tr><tr class="passedeven"><td><a href="#m2">clickTimePageTest</a></td><td rowspan="1">1749879981154</td><td rowspan="1">1301</td></tr><tr class="passedeven"><td><a href="#m3">homePageTitleTest</a></td><td rowspan="1">1749879955628</td><td rowspan="1">23</td></tr><tr class="passedodd"><td rowspan="3">com.crm.qa.test.LoginPageTest</td><td><a href="#m4">crmLogoImageTest</a></td><td rowspan="1">1749879990950</td><td rowspan="1">196</td></tr><tr class="passedodd"><td><a href="#m5">loginPageTitleTest</a></td><td rowspan="1">1749879988617</td><td rowspan="1">9</td></tr><tr class="passedodd"><td><a href="#m6">loginTest</a></td><td rowspan="1">1749879993459</td><td rowspan="1">936</td></tr><tr class="passedeven"><td rowspan="4">com.crm.qa.test.RecruitmentPageTest</td><td><a href="#m7">verifyRecruitmentPageLabel</a></td><td rowspan="1">1749879998301</td><td rowspan="1">149</td></tr><tr class="passedeven"><td><a href="#m8">verifySearchButton</a></td><td rowspan="3">1749880002598</td><td rowspan="3">449</td></tr><tr class="passedeven"><td><a href="#m9">verifySearchButton</a></td></tr><tr class="passedeven"><td><a href="#m10">verifySearchButton</a></td></tr></tbody>
 </table>
-<h2>Free CRM App Test Cases</h2><h3 id="m0">com.crm.qa.test.LoginPageTest#crmLogoImageTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at com.crm.qa.test.LoginPageTest.crmLogoImageTest(LoginPageTest.java:35)
+<h2>Default test</h2><h3 id="m0">com.crm.qa.test.HomePageTest#validateUsernameTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;manda user&apos;]&quot;}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;KAMAL&apos;, ip: &apos;10.0.0.25&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_451&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2867e487b2480f19438cfb2be3765519, findElement {using=xpath, value=//p[text()=&apos;manda user&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\khehra\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59332/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2867e487b2480f19438cfb2be3765519
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:115)
+	at com.sun.proxy.$Proxy20.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:204)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy24.getText(Unknown Source)
+	at com.crm.qa.pages.HomePage.validateUsername(HomePage.java:29)
+	at com.crm.qa.test.HomePageTest.validateUsernameTest(HomePageTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.crm.qa.test.HomePageTest#clickRecruitmentPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.crm.qa.test.HomePageTest#clickTimePageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.crm.qa.test.HomePageTest#homePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.crm.qa.test.HomePageTest#validateUsernameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.crm.qa.test.LoginPageTest#crmLogoImageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">com.crm.qa.test.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">com.crm.qa.test.LoginPageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m7">com.crm.qa.test.RecruitmentPageTest#verifyRecruitmentPageLabel</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.crm.qa.test.RecruitmentPageTest#verifySearchButton</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>com.crm.qa.util.KeywordData@5c48b72c</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.crm.qa.test.RecruitmentPageTest#verifySearchButton</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>com.crm.qa.util.KeywordData@191a0351</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.crm.qa.test.RecruitmentPageTest#verifySearchButton</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>com.crm.qa.util.KeywordData@1ee40b5c</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.crm.qa.test.RecruitmentPageTest#verifySearchButton</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>com.crm.qa.util.KeywordData@7859fc7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.crm.qa.test.RecruitmentPageTest#verifySearchButton</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>com.crm.qa.util.KeywordData@79194b1c</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.crm.qa.test.RecruitmentPageTest#verifySearchButton</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>com.crm.qa.util.KeywordData@52ec5ba6</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

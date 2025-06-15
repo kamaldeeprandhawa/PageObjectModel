@@ -1,4 +1,4 @@
-package com.qa.ExtentReportListener;
+package com.qa.listener;
 
 import java.io.File;
 import java.util.Calendar;
